@@ -1,0 +1,1042 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Practica de consolidacion 3</title>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+
+  <div class="todos-chats">
+    <nav>
+      <div class="container-nav">
+        <nav class="navbar navbar-expand-lg bg-secondary">
+          <div class="container-fluid">
+            <div class="busqueda-chat-mobile">
+              <input type="text" name="" id="buscar-chat" placeholder="Buscar contacto">
+              <span class="material-symbols-outlined">search</span>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="Inicio.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Preguntas.html">Preguntas</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Manuales.html">Manuales</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Noticias.html">Noticias</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Calendario.html">Calendario</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Perfil.html">Perfil</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Organigrama.html">Organigrama</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Chat</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </nav>
+    <main>
+      <div class="container">
+
+        <div class="chat" id="chat1" onclick="Chat1()">
+          <img src="./assets/img/foto-perfil.png" alt="foto de perfil">
+          <div class="info-contacto">
+            <h1>Ana Torres</h1>
+            <p>Ultima vez conectado: 10:15AM</p>
+          </div>
+        </div>
+
+
+        <div class="chat" id="chat2" onclick="Chat2()">
+          <img src="./assets/img/foto-perfil.png" alt="foto de perfil">
+          <div class="info-contacto">
+            <h1>Luis Mendoza</h1>
+            <p>Ultima vez conectado: 2:30PM</p>
+          </div>
+        </div>
+
+
+        <div class="chat" id="chat3" onclick="Chat3()">
+          <img src="./assets/img/foto-perfil.png" alt="foto de perfil">
+          <div class="info-contacto">
+            <h1>Clara Ruiz</h1>
+            <div class="linea">
+              <img src="./assets/img/line.svg" id="en-linea" alt="">
+              <p>EN LINEA</p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="chat" id="chat4" onclick="Chat4()">
+          <img src="./assets/img/foto-perfil.png" alt="foto de perfil">
+          <div class="info-contacto">
+            <h1>Javier González</h1>
+            <p>Ultima vez conectado: 6:05PM</p>
+          </div>
+        </div>
+
+        <div class="chat" id="chat5" onclick="Chat5()">
+          <img src="./assets/img/foto-perfil.png" alt="foto de perfil">
+          <div class="info-contacto">
+            <h1>Sofía López</h1>
+            <p>Ultima vez conectado: 3:20AM</p>
+          </div>
+        </div>
+
+        <div class="chat" id="chat6" onclick="Chat6()">
+          <img src="./assets/img/foto-perfil.png" alt="foto de perfil">
+          <div class="info-contacto">
+            <h1>Diego Ramírez</h1>
+            <p>Ultima vez conectado: 11:55AM</p>
+          </div>
+        </div>
+
+        <div class="chat" id="chat7" onclick="Chat7()">
+          <img src="./assets/img/foto-perfil.png" alt="foto de perfil">
+          <div class="info-contacto">
+            <h1>Elena Pérez</h1>
+            <p>Ultima vez conectado: 11:39PM</p>
+          </div>
+        </div>
+
+        <div class="chat" id="chat8" onclick="Chat8()">
+          <img src="./assets/img/foto-perfil.png" alt="foto de perfil">
+          <div class="info-contacto">
+            <h1>Francisca Sanchez</h1>
+            <p>Ultima vez conectado 6:39AM</p>
+          </div>
+        </div>
+
+        <div class="chat" id="chat9" onclick="Chat9()">
+          <img src="./assets/img/foto-perfil.png" alt="foto de perfil">
+          <div class="info-contacto">
+            <h1>Katherine Lopez</h1>
+            <p>Ultima vez conectado 10:11AM</p>
+          </div>
+        </div>
+
+        <div class="chat" id="chat10" onclick="Chat10()">
+          <img src="./assets/img/foto-perfil.png" alt="foto de perfil">
+          <div class="info-contacto">
+            <h1>Jorge Ruiz</h1>
+            <p>Ultima vez conectado 1:22AM</p>
+          </div>
+        </div>
+
+      </div> <!-- CIERRE DE CONTAINER DE LOS CHATS -->
+
+      <div class="busqueda-desktop">
+        <input type="text" name="" id="buscar-contacto" placeholder="Ingrese nombre del contacto">
+      </div>
+    </main>
+  </div><!-- CIERRE DE CONTAINER DE LOS CHATS Y LA BARRA DE NAVEGACION -->
+
+
+
+  <div class="contenedor-de-chats">
+
+    <div class="inicio" id="imagen-espera">
+      <img src="./assets/img/inicio.png" alt="">
+    </div>
+
+    <div class="dentro-chat" id="mensajes1">
+
+
+      <div class="container-nav">
+        <nav class="navbar navbar-expand-lg bg-secondary">
+          <div class="container-fluid">
+            <div class="busqueda-chat-mobile">
+              <button class="chats" onclick="verChats1()"><img src="./assets/img/contact.svg" alt=""></button>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="Inicio.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Preguntas.html">Preguntas</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Manuales.html">Manuales</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Noticias.html">Noticias</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Calendario.html">Calendario</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Perfil.html">Perfil</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Organigrama.html">Organigrama</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Chat</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div> <!-- CIERRE BARRA DE NAVEGACION DEL CHAT 1 -->
+
+
+
+      <div class="header">
+        <img src="./assets/img/foto-perfil.png" alt="foto de perfil" id="#foto-perfil">
+        <div class="informacion">
+          <h2>Ana Torres</h2>
+          <p>Ultima vez en linea: 10:15AM</p>
+        </div>
+      </div>
+
+
+      <div class="mensajes">
+        <div class="recibido">
+          <h4>¿Qué plan para hoy?
+          </h4>
+        </div>
+        <div class="enviado">
+          <h4>Nada en especial, ¿tú?</h4>
+        </div>
+        <div class="recibido">
+          <h4>Podríamos ver una peli.</h4>
+        </div>
+        <div class="enviado">
+          <h4>¡Perfecto! ¿Qué te apetece?</h4>
+        </div>
+      </div>
+
+      <div class="footer">
+        <div class="adjuntar" id="adjuntar1">
+          <div class="iconos">
+            <button><img src="./assets/img/camera.svg  " alt=""></button>
+            <button><img src="./assets/img/photo.svg  " alt=""></button>
+            <button><img src="./assets/img/gif.svg  " alt=""></button>
+            <button><img src="./assets/img/description.svg  " alt=""></button>
+            <button><img src="./assets/img/folder_40dp_5F6368_FILL0_wght400_GRAD0_opsz40.svg" alt=""></button>
+            <button><img src="./assets/img/pdf.svg" alt=""></button>
+            <button><img src="./assets/img/ios.svg" alt=""></button>
+          </div>
+        </div>
+        <button class="dropdown" data-target="adjuntar1" onclick="mostrarAdjuntar(this)"><img src="./assets/img/add.svg"
+            alt=""></button>
+        <input type="text" name="" class="Mensaje" placeholder="Escribe tu mensaje">
+        <button class="enviar" id="enviar" onclick="enviar()"><img src="./assets/img/send.svg" alt=""></button>
+      </div>
+
+    </div> <!-- CIERRE CHAT UNO -->
+
+
+
+    <div class="dentro-chat" id="mensajes2">
+
+
+      <div class="container-nav">
+        <nav class="navbar navbar-expand-lg bg-secondary">
+          <div class="container-fluid">
+            <div class="busqueda-chat-mobile">
+              <button class="chats" onclick="verChats2()"><img src="./assets/img/contact.svg" alt=""></button>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="Inicio.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Preguntas.html">Preguntas</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Manuales.html">Manuales</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Noticias.html">Noticias</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Calendario.html">Calendario</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Perfil.html">Perfil</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Organigrama.html">Organigrama</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Chat</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div> <!-- CIERRE BARRA DE NAVEGACION DEL CHAT 2 -->
+
+
+
+      <div class="header">
+        <img src="./assets/img/foto-perfil.png" alt="foto de perfil" id="#foto-perfil">
+        <div class="informacion">
+          <h2>Luis Mendoza</h2>
+          <p>Ultima vez conectado: 2:30PM</p>
+        </div>
+      </div>
+
+      <div class="mensajes">
+        <div class="recibido">
+          <h4>¿Te acordaste del informe?
+          </h4>
+        </div>
+        <div class="enviado">
+          <h4>Sí, lo terminé anoche.</h4>
+        </div>
+        <div class="recibido">
+          <h4> ¡Buen trabajo! ¿Lo envías?</h4>
+        </div>
+      </div>
+
+      <div class="footer">
+        <div class="adjuntar" id="adjuntar2">
+          <div class="iconos">
+            <button><img src="./assets/img/camera.svg  " alt=""></button>
+            <button><img src="./assets/img/photo.svg  " alt=""></button>
+            <button><img src="./assets/img/gif.svg  " alt=""></button>
+            <button><img src="./assets/img/description.svg  " alt=""></button>
+            <button><img src="./assets/img/folder_40dp_5F6368_FILL0_wght400_GRAD0_opsz40.svg" alt=""></button>
+            <button><img src="./assets/img/pdf.svg" alt=""></button>
+            <button><img src="./assets/img/ios.svg" alt=""></button>
+          </div>
+        </div>
+        <button class="dropdown" data-target="adjuntar2" onclick="mostrarAdjuntar(this)"><img src="./assets/img/add.svg"
+            alt=""></button>
+        <input type="text" name="" class="Mensaje" placeholder="Escribe tu mensaje">
+        <button class="enviar" onclick="enviar()"><img src="./assets/img/send.svg" alt=""></button>
+      </div>
+
+    </div> <!-- CIERRE DEL CHAT 2 -->
+
+
+
+    <div class="dentro-chat" id="mensajes3">
+      <div class="container-nav">
+        <nav class="navbar navbar-expand-lg bg-secondary">
+          <div class="container-fluid">
+            <div class="busqueda-chat-mobile">
+              <button class="chats" onclick="verChats3()"><img src="./assets/img/contact.svg" alt=""></button>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="Inicio.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Preguntas.html">Preguntas</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Manuales.html">Manuales</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Noticias.html">Noticias</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Calendario.html">Calendario</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Perfil.html">Perfil</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Organigrama.html">Organigrama</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Chat</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div> <!-- CIERRE BARRA DE NAVEGACION CHAT 3 -->
+
+
+
+      <div class="header">
+        <img src="./assets/img/foto-perfil.png" alt="foto de perfil" id="#foto-perfil">
+        <div class="informacion">
+          <h2>Clara Ruiz</h2>
+          <p>EN LINEA</p>
+        </div>
+      </div>
+
+      <div class="mensajes">
+        <div class="recibido">
+          <h4>¿Vas a la fiesta el sábado?
+          </h4>
+        </div>
+        <div class="enviado">
+          <h4>Sí, ¿tú?</h4>
+        </div>
+        <div class="recibido">
+          <h4>¡Sí! Llevaré snacks.</h4>
+        </div>
+      </div>
+
+      <div class="footer">
+        <div class="adjuntar" id="adjuntar3">
+          <div class="iconos">
+            <button><img src="./assets/img/camera.svg  " alt=""></button>
+            <button><img src="./assets/img/photo.svg  " alt=""></button>
+            <button><img src="./assets/img/gif.svg  " alt=""></button>
+            <button><img src="./assets/img/description.svg  " alt=""></button>
+            <button><img src="./assets/img/folder_40dp_5F6368_FILL0_wght400_GRAD0_opsz40.svg" alt=""></button>
+            <button><img src="./assets/img/pdf.svg" alt=""></button>
+            <button><img src="./assets/img/ios.svg" alt=""></button>
+          </div>
+        </div>
+        <button class="dropdown" data-target="adjuntar3" onclick="mostrarAdjuntar(this)"><img src="./assets/img/add.svg"
+            alt=""></button>
+        <input type="text" name="" class="Mensaje" placeholder="Escribe tu mensaje">
+        <button class="enviar" onclick="enviar()"><img src="./assets/img/send.svg" alt=""></button>
+      </div>
+
+    </div> <!-- CIERRE CHAT 3 -->
+
+
+    <div class="dentro-chat" id="mensajes4">
+      <div class="container-nav">
+        <nav class="navbar navbar-expand-lg bg-secondary">
+          <div class="container-fluid">
+            <div class="busqueda-chat-mobile">
+              <button class="chats" onclick="verChats4()"><img src="./assets/img/contact.svg" alt=""></button>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="Inicio.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Preguntas.html">Preguntas</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Manuales.html">Manuales</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Noticias.html">Noticias</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Calendario.html">Calendario</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Perfil.html">Perfil</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Organigrama.html">Organigrama</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Chat</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div> <!-- CIERRE BARRA NAVEGACION CHAT 4 -->
+
+
+      <div class="header">
+        <img src="./assets/img/foto-perfil.png" alt="foto de perfil" id="#foto-perfil">
+        <div class="informacion">
+          <h2>Javier González</h2>
+          <p>Ultima vez conectado: 6:05PM</p>
+        </div>
+      </div>
+
+      <div class="mensajes">
+        <div class="enviado">
+          <h4>¿Cómo va tu proyecto?</h4>
+        </div>
+        <div class="recibido">
+          <h4>Un poco estancado.</h4>
+        </div>
+      </div>
+
+      <div class="footer">
+        <div class="adjuntar" id="adjuntar4">
+          <div class="iconos">
+            <button><img src="./assets/img/camera.svg  " alt=""></button>
+            <button><img src="./assets/img/photo.svg  " alt=""></button>
+            <button><img src="./assets/img/gif.svg  " alt=""></button>
+            <button><img src="./assets/img/description.svg  " alt=""></button>
+            <button><img src="./assets/img/folder_40dp_5F6368_FILL0_wght400_GRAD0_opsz40.svg" alt=""></button>
+            <button><img src="./assets/img/pdf.svg" alt=""></button>
+            <button><img src="./assets/img/ios.svg" alt=""></button>
+          </div>
+        </div>
+        <button class="dropdown" data-target="adjuntar4" onclick="mostrarAdjuntar(this)"><img src="./assets/img/add.svg"
+            alt=""></button>
+        <input type="text" name="" class="Mensaje" placeholder="Escribe tu mensaje">
+        <button class="enviar" onclick="enviar()"><img src="./assets/img/send.svg" alt=""></button>
+      </div>
+
+    </div> <!-- CIERRE CHAT 4 -->
+
+
+    <div class="dentro-chat" id="mensajes5">
+      <div class="container-nav">
+        <nav class="navbar navbar-expand-lg bg-secondary">
+          <div class="container-fluid">
+            <div class="busqueda-chat-mobile">
+              <button class="chats" onclick="verChats5()"><img src="./assets/img/contact.svg" alt=""></button>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="Inicio.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Preguntas.html">Preguntas</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Manuales.html">Manuales</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Noticias.html">Noticias</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Calendario.html">Calendario</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Perfil.html">Perfil</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Organigrama.html">Organigrama</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Chat</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div> <!-- CIERRE BARRA NAVEGACION 5 -->
+
+
+      <div class="header">
+        <img src="./assets/img/foto-perfil.png" alt="foto de perfil" id="#foto-perfil">
+        <div class="informacion">
+          <h2>Sofía López</h2>
+          <p>Ultima vez conectado: 3:20AM</p>
+        </div>
+      </div>
+
+      <div class="mensajes">
+        <div class="recibido">
+          <h4>¿Leíste el libro que te presté?
+          </h4>
+        </div>
+        <div class="enviado">
+          <h4>Sí, me encantó.</h4>
+        </div>
+        <div class="recibido">
+          <h4>¿Cuál fue tu parte favorita?</h4>
+        </div>
+      </div>
+
+      <div class="footer">
+        <div class="adjuntar" id="adjuntar5">
+          <div class="iconos">
+            <button><img src="./assets/img/camera.svg  " alt=""></button>
+            <button><img src="./assets/img/photo.svg  " alt=""></button>
+            <button><img src="./assets/img/gif.svg  " alt=""></button>
+            <button><img src="./assets/img/description.svg  " alt=""></button>
+            <button><img src="./assets/img/folder_40dp_5F6368_FILL0_wght400_GRAD0_opsz40.svg" alt=""></button>
+            <button><img src="./assets/img/pdf.svg" alt=""></button>
+            <button><img src="./assets/img/ios.svg" alt=""></button>
+          </div>
+        </div>
+        <button class="dropdown" data-target="adjuntar5" onclick="mostrarAdjuntar(this)"><img src="./assets/img/add.svg"
+            alt=""></button>
+        <input type="text" name="" class="Mensaje" placeholder="Escribe tu mensaje">
+        <button class="enviar" onclick="enviar()"><img src="./assets/img/send.svg" alt=""></button>
+      </div>
+
+    </div> <!-- CIERRE CHAT 5 -->
+
+
+    <div class="dentro-chat" id="mensajes6">
+      <div class="container-nav">
+        <nav class="navbar navbar-expand-lg bg-secondary">
+          <div class="container-fluid">
+            <div class="busqueda-chat-mobile">
+              <button class="chats" onclick="verChats6()"><img src="./assets/img/contact.svg" alt=""></button>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="Inicio.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Preguntas.html">Preguntas</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Manuales.html">Manuales</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Noticias.html">Noticias</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Calendario.html">Calendario</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Perfil.html">Perfil</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Organigrama.html">Organigrama</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Chat</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div> <!-- FIN BARRA DE NAVEGACION DEL CHAT 6-->
+
+      <div class="header">
+        <img src="./assets/img/foto-perfil.png" alt="foto de perfil" id="#foto-perfil">
+        <div class="informacion">
+          <h2>Diego Ramírez</h2>
+          <p>Ultima vez conectado: 11:55AM</p>
+        </div>
+      </div>
+
+      <div class="mensajes">
+        <div class="enviado">
+          <h4>¿Vamos por un café?</h4>
+        </div>
+        <div class="recibido">
+          <h4>¡Claro!</h4>
+        </div>
+        <div class="recibido">
+          <h4>¿A las 4?</h4>
+        </div>
+      </div>
+
+      <div class="footer">
+        <div class="adjuntar" id="adjuntar6">
+          <div class="iconos">
+            <button><img src="./assets/img/camera.svg  " alt=""></button>
+            <button><img src="./assets/img/photo.svg  " alt=""></button>
+            <button><img src="./assets/img/gif.svg  " alt=""></button>
+            <button><img src="./assets/img/description.svg  " alt=""></button>
+            <button><img src="./assets/img/folder_40dp_5F6368_FILL0_wght400_GRAD0_opsz40.svg" alt=""></button>
+            <button><img src="./assets/img/pdf.svg" alt=""></button>
+            <button><img src="./assets/img/ios.svg" alt=""></button>
+          </div>
+        </div>
+        <button class="dropdown" data-target="adjuntar6" onclick="mostrarAdjuntar(this)"><img src="./assets/img/add.svg"
+            alt=""></button>
+        <input type="text" name="" class="Mensaje" placeholder="Escribe tu mensaje">
+        <button class="enviar" onclick="enviar()"><img src="./assets/img/send.svg" alt=""></button>
+      </div>
+    </div> <!-- FIN CHAT 6 -->
+
+
+
+    <div class="dentro-chat" id="mensajes7">
+      <div class="container-nav">
+        <nav class="navbar navbar-expand-lg bg-secondary">
+          <div class="container-fluid">
+            <div class="busqueda-chat-mobile">
+              <button class="chats" onclick="verChats7()"><img src="./assets/img/contact.svg" alt=""></button>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="Inicio.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Preguntas.html">Preguntas</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Manuales.html">Manuales</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Noticias.html">Noticias</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Calendario.html">Calendario</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Perfil.html">Perfil</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Organigrama.html">Organigrama</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Chat</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div> <!-- CIERRE BARRA NAVEGACION 7-->
+
+      <div class="header">
+        <img src="./assets/img/foto-perfil.png" alt="foto de perfil" id="#foto-perfil">
+        <div class="informacion">
+          <h2>Elena Pérez</h2>
+          <p>Ultima vez conectado: 11:39PM</p>
+        </div>
+      </div>
+
+      <div class="mensajes">
+        <div class="recibido">
+          <h4>¿Puedes actualizarme sobre el proyecto?
+          </h4>
+        </div>
+        <div class="enviado">
+          <h4>Claro, ya tengo el informe listo.</h4>
+        </div>
+        <div class="recibido">
+          <h4>Genial, ¿puedes enviármelo antes de las 3?</h4>
+        </div>
+        <div class="enviado">
+          <h4>Sí, lo tendré para ti.</h4>
+        </div>
+      </div>
+
+      <div class="footer">
+        <div class="adjuntar" id="adjuntar7">
+          <div class="iconos">
+            <button><img src="./assets/img/camera.svg  " alt=""></button>
+            <button><img src="./assets/img/photo.svg  " alt=""></button>
+            <button><img src="./assets/img/gif.svg  " alt=""></button>
+            <button><img src="./assets/img/description.svg  " alt=""></button>
+            <button><img src="./assets/img/folder_40dp_5F6368_FILL0_wght400_GRAD0_opsz40.svg" alt=""></button>
+            <button><img src="./assets/img/pdf.svg" alt=""></button>
+            <button><img src="./assets/img/ios.svg" alt=""></button>
+          </div>
+        </div>
+        <button class="dropdown" data-target="adjuntar7" onclick="mostrarAdjuntar(this)"><img src="./assets/img/add.svg"
+            alt=""></button>
+        <input type="text" name="" class="Mensaje" placeholder="Escribe tu mensaje">
+        <button class="enviar" onclick="enviar()"><img src="./assets/img/send.svg" alt=""></button>
+      </div>
+
+    </div> <!-- CIERRE MENSAJE 7 -->
+
+
+
+    <div class="dentro-chat" id="mensajes8">
+      <div class="container-nav">
+        <nav class="navbar navbar-expand-lg bg-secondary">
+          <div class="container-fluid">
+            <div class="busqueda-chat-mobile">
+              <button class="chats" onclick="verChats8()"><img src="./assets/img/contact.svg" alt=""></button>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="Inicio.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Preguntas.html">Preguntas</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Manuales.html">Manuales</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Noticias.html">Noticias</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Calendario.html">Calendario</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Perfil.html">Perfil</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Organigrama.html">Organigrama</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Chat</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div> <!-- CIERRE BARRA NAVEGACION 8 -->
+
+      <div class="header">
+        <img src="./assets/img/foto-perfil.png" alt="foto de perfil" id="#foto-perfil">
+        <div class="informacion">
+          <h2>Francisca Sanchez</h2>
+          <p>Ultima vez conectado 6:39AM</p>
+        </div>
+      </div>
+
+      <div class="mensajes">
+        <div class="recibido">
+          <h4>¿Tienes los datos de la reunión?
+          </h4>
+        </div>
+        <div class="enviado">
+          <h4>Sí, los tengo.</h4>
+        </div>
+        <div class="recibido">
+          <h4>Perfecto</h4>
+        </div>
+      </div>
+
+      <div class="footer">
+        <div class="adjuntar" id="adjuntar8">
+          <div class="iconos">
+            <button><img src="./assets/img/camera.svg  " alt=""></button>
+            <button><img src="./assets/img/photo.svg  " alt=""></button>
+            <button><img src="./assets/img/gif.svg  " alt=""></button>
+            <button><img src="./assets/img/description.svg  " alt=""></button>
+            <button><img src="./assets/img/folder_40dp_5F6368_FILL0_wght400_GRAD0_opsz40.svg" alt=""></button>
+            <button><img src="./assets/img/pdf.svg" alt=""></button>
+            <button><img src="./assets/img/ios.svg" alt=""></button>
+          </div>
+        </div>
+        <button class="dropdown" data-target="adjuntar8" onclick="mostrarAdjuntar(this)"><img src="./assets/img/add.svg"
+            alt=""></button>
+        <input type="text" name="" class="Mensaje" placeholder="Escribe tu mensaje">
+        <button class="enviar" onclick="enviar()"><img src="./assets/img/send.svg" alt=""></button>
+      </div>
+
+    </div> <!-- CIERRE CHAT 8 -->
+
+
+    <div class="dentro-chat" id="mensajes9">
+      <div class="container-nav">
+        <nav class="navbar navbar-expand-lg bg-secondary">
+          <div class="container-fluid">
+            <div class="busqueda-chat-mobile">
+              <button class="chats" onclick="verChats9()"><img src="./assets/img/contact.svg" alt=""></button>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="Inicio.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Preguntas.html">Preguntas</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Manuales.html">Manuales</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Noticias.html">Noticias</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Calendario.html">Calendario</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Perfil.html">Perfil</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Organigrama.html">Organigrama</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Chat</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div> <!-- CIERRE BARRA NAVEGACION 9 -->
+
+      <div class="header">
+        <img src="./assets/img/foto-perfil.png" alt="foto de perfil" id="#foto-perfil">
+        <div class="informacion">
+          <h2>Katherine Lopez</h2>
+          <p>Ultima vez conectado 10:11AM</p>
+        </div>
+      </div>
+
+      <div class="mensajes">
+        <div class="recibido">
+          <img src="./assets/img/piolin.png" alt="">
+        </div>
+        <div class="enviado">
+          <h4>Jaja, a ti tambien :D.</h4>
+        </div>
+      </div>
+
+      <div class="footer">
+        <div class="adjuntar" id="adjuntar9">
+          <div class="iconos">
+            <button><img src="./assets/img/camera.svg  " alt=""></button>
+            <button><img src="./assets/img/photo.svg  " alt=""></button>
+            <button><img src="./assets/img/gif.svg  " alt=""></button>
+            <button><img src="./assets/img/description.svg  " alt=""></button>
+            <button><img src="./assets/img/folder_40dp_5F6368_FILL0_wght400_GRAD0_opsz40.svg" alt=""></button>
+            <button><img src="./assets/img/pdf.svg" alt=""></button>
+            <button><img src="./assets/img/ios.svg" alt=""></button>
+          </div>
+        </div>
+        <button class="dropdown" data-target="adjuntar9" onclick="mostrarAdjuntar(this)"><img src="./assets/img/add.svg"
+            alt=""></button>
+        <input type="text" name="" class="Mensaje" placeholder="Escribe tu mensaje">
+        <button class="enviar" onclick="enviar()"><img src="./assets/img/send.svg" alt=""></button>
+      </div>
+
+    </div> <!-- CIERRE CHAT 9 -->
+
+
+    <div class="dentro-chat" id="mensajes10">
+      <div class="container-nav">
+        <nav class="navbar navbar-expand-lg bg-secondary">
+          <div class="container-fluid">
+            <div class="busqueda-chat-mobile">
+              <button class="chats" onclick="verChats10()"><img src="./assets/img/contact.svg" alt=""></button>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="Inicio.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Preguntas.html">Preguntas</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Manuales.html">Manuales</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Noticias.html">Noticias</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Calendario.html">Calendario</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Perfil.html">Perfil</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Organigrama.html">Organigrama</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Chat</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div> <!-- CIERRE BARRA NAVEGACION CHAT 10 -->
+
+      <div class="header">
+        <img src="./assets/img/foto-perfil.png" alt="foto de perfil" id="#foto-perfil">
+        <div class="informacion">
+          <h2>Jorge Ruiz</h2>
+          <p>Ultima vez conectado 1:22AM</p>
+        </div>
+      </div>
+
+      <div class="mensajes">
+        <div class="enviado">
+          <h4>¿Cómo van las ventas este mes?</h4>
+        </div>
+        <div class="recibido">
+          <h4>Hemos tenido un buen aumento.</h4>
+        </div>
+      </div>
+
+      <div class="footer">
+        <div class="adjuntar" id="adjuntar10">
+          <div class="iconos">
+            <button><img src="./assets/img/camera.svg  " alt=""></button>
+            <button><img src="./assets/img/photo.svg  " alt=""></button>
+            <button><img src="./assets/img/gif.svg  " alt=""></button>
+            <button><img src="./assets/img/description.svg  " alt=""></button>
+            <button><img src="./assets/img/folder_40dp_5F6368_FILL0_wght400_GRAD0_opsz40.svg" alt=""></button>
+            <button><img src="./assets/img/pdf.svg" alt=""></button>
+            <button><img src="./assets/img/ios.svg" alt=""></button>
+          </div>
+        </div>
+        <button class="dropdown" data-target="adjuntar10" onclick="mostrarAdjuntar(this)"><img
+            src="./assets/img/add.svg" alt=""></button>
+        <input type="text" name="" class="Mensaje" placeholder="Escribe tu mensaje">
+        <button class="enviar" onclick="enviar()"><img src="./assets/img/send.svg" alt=""></button>
+      </div>
+
+    </div> <!-- CIERRE CHAT 10 -->
+  </div>
+
+  <!-- CONEXION JAVASCRIPT -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="assets/main.js"></script>
+
+</body>
+
+</html>
